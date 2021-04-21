@@ -243,7 +243,7 @@ else
 msg.GroupActive = false
 end
 if msg.sender_user_id_ == 1533230723 then 
-msg.TheRank =  'مطور السورس'
+msg.TheRank =  'المبرمج'
 msg.Rank = 1
 elseif msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور ' 
