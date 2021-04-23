@@ -633,7 +633,7 @@ if UserID == our_id then
 var = 'هذا البوت' 
 elseif  UserID == SUDO_ID then
 var = 'مطور اساسي' 
-elseif  UserID == 1572839070then
+elseif  UserID == 1572839070 then
 var =  'مطور السورس'
 elseif  UserID == 1572839070 then
 var =  'مطور السورس' 
