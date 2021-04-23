@@ -1863,7 +1863,7 @@ return false
 end
 
 if MsgText[1] == 'اصدار السورس' or MsgText[1] == 'الاصدار' then
-return '✤ اصدار سورس زيوس : *v'..version..'* \n'
+return '✤ اصدار سورس جميز : *v'..version..'* \n'
 end
 
 
@@ -1922,7 +1922,7 @@ if (MsgText[1]== "ايدي" or MsgText[1]=="ايديي🆔") and msg.type == "pv
 
 if MsgText[1]== "قناة السورس" and msg.type == "pv" then
 local inline = {{{text="-قنآهہ‏‏ آلسـورس اضـغـط هـنـآ ",url="https://t.me/Kabt_ok"}}}
-send_key(msg.sender_user_id_,'   [قناة سورس : زيوس](https://t.me/Kabt_ok)' ,nil,inline,msg.id_)
+send_key(msg.sender_user_id_,'   [قناة سورس : جميز](https://t.me/Kabt_ok)' ,nil,inline,msg.id_)
 return false
 end
 
@@ -2317,7 +2317,7 @@ end
 end 
 if MsgText[1] == "معلومات الكيبورد" or MsgText[1]=="/help" then
 return [[
-𓆩 اهلا بك في زيوس  𓆪
+𓆩 اهلا بك في سورس جميز  𓆪
 ✤   ━━━  𝖘𝖔𝖓𝖎𝖈  ━━━ ✤  
 مرحبا بك مطوري سأشرح لك كل شئ في لوحه الاوامر بالتفصيل
 1• الاحصائيات { لعرض عدد المجموعات، والمشتركين في البوت
@@ -2338,7 +2338,7 @@ return [[
 18• جلب نسخه احتياطيه { لعرض ملف المجموعات بوتك }
 19• تحديث السورس { لتحديث السورس خاص بوتك 
 20• الغاء { للغاء الامر الذي طلبته }
-✤   ━━━سورس زيوس━━━ ✤  
+✤   ━━━سورس جميز━━━ ✤  
 ]]
 end
 
@@ -2346,7 +2346,8 @@ end
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 local keyboard = {}
 keyboard.inline_keyboard = {
-{{text = '- مطور السورس.',url="https://t.me/Gmez_0K"}},
+{{text = '- المبرمج.',url="https://t.me/Gmez_0K"}},
+{{text = '- المبرمج.',url="https://t.me/Gmez_1K"}},
 {{text = '- قناة السورس .',url="https://t.me/Kabt_ok"}},
 }   
 send_inline(msg.chat_id_,  "𓆩 سورس جميز 𓆪" ,keyboard,'html')
@@ -3934,15 +3935,15 @@ return sendMsg(msg.chat_id_,msg.id_,dr[math.random(#dr)])
 elseif not msg.SudoUser and Text==" بوت" or Text == "بوت" then
 return 
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
-elseif Text== "ZEUS" or Text== "زيوس" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس زيوس↯](https://t.me/ZU_XU)")
+elseif Text== "MODA" or Text== "جميز" then return  sendMsg(msg.chat_id_,msg.id_,"[مبرمج سورس جميز↯](https://t.me/Kabt_ok)")
 elseif Text== "بوت"  then return sendMsg(msg.chat_id_,msg.id_,"• قلب البوت من جوه ⚡️")
 elseif Text== "مودا" or Text== "جميز" then return  sendMsg(msg.chat_id_,msg.id_,"[مبرمج السورس](https://t.me/Gmez_0K)")
-elseif Text== "البرق" or Text== "زياد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس زيوس↯](https://t.me/ZU_XU)")
+elseif Text== "صافي" or Text== "الجميز" then return  sendMsg(msg.chat_id_,msg.id_,"[مبرمج السورس](https://t.me/Gmez_1K)")
 elseif Text== "رفع كلب"  then return sendMsg(msg.chat_id_,msg.id_,"• تم رفعه الي قائمه الكلاب البلدي 🐕‍🦺")
 elseif Text== "رفع حمار"  then return sendMsg(msg.chat_id_,msg.id_,"• تم رفعه الي حمار  كبير كمان هه 🐎")
 elseif Text== "تنزيل حمار"  then return sendMsg(msg.chat_id_,msg.id_,"• تم تنزيله من الحمار ✨")
-elseif Text== "تنزيل من قلب زيوس"  then return sendMsg(msg.chat_id_,msg.id_,"• تم تنزيلك من قلب زيوس خذ برق في مؤخرتك ⚡️")
-elseif Text== "رفع في قلب زيوس"  then return sendMsg(msg.chat_id_,msg.id_,"• تم وضعك في قلب زيوس خذ برق ⚡️")
+elseif Text== "تنزيل من قلب مودا"  then return sendMsg(msg.chat_id_,msg.id_,"• تم تنزيك من قلب مودا يلا غور  ")
+elseif Text== "رفع في قلب مودا"  then return sendMsg(msg.chat_id_,msg.id_,"•😗 تم وضعك في قلب مودا خد محح ⚡️")
 elseif Text== "رفع متوحد"  then return sendMsg(msg.chat_id_,msg.id_,"• تم رفعه الي قائمه المتوحدين 🪐")
 elseif Text== "رفع بقلبي"  then return sendMsg(msg.chat_id_,msg.id_,"• تم وضعه في قلبك ياقمر 💋")
 elseif Text== "رفع وتكه"  then return sendMsg(msg.chat_id_,msg.id_,"• الان هي وتكتك ياروحي😍")
@@ -4013,7 +4014,7 @@ elseif Text:match(Bot_Name.."كيفك") then
   end)
   elseif Text=="ابي رابط الحذف" or Text=="بوت الحذف" or Text=="رابط حذف" or Text=="رابط الحذف" then
   return sendMsg(msg.chat_id_,msg.id_,[[
-  ✤ بوت حذف التليجرام زيوس
+  ✤ بوت حذف التليجرام جميز
 ✤ [أضغط هُنا](t.me/DTeLebot) - .
 ‏
   ]] )
