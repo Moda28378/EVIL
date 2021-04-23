@@ -2346,10 +2346,10 @@ end
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 local keyboard = {}
 keyboard.inline_keyboard = {
-{{text = '- مطور السورس.',url="https://t.me/ZU_XUX"}},
-{{text = '- قناة السورس .',url="https://t.me/ZU_XUXU"}},
+{{text = '- مطور السورس.',url="https://t.me/Gmez_0K"}},
+{{text = '- قناة السورس .',url="https://t.me/Kabt_ok"}},
 }   
-send_inline(msg.chat_id_,  "𓆩 سورس زيوس 𓆪" ,keyboard,'html')
+send_inline(msg.chat_id_,  "𓆩 سورس جميز 𓆪" ,keyboard,'html')
 end
 
 if MsgText[1] == "التاريخ" then
