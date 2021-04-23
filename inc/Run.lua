@@ -245,6 +245,12 @@ end
 if msg.sender_user_id_ == 1533230723 then 
 msg.TheRank =  'المبرمج'
 msg.Rank = 1
+if msg.sender_user_id_ == 1572839070 then 
+msg.TheRank =  'المبرمج'
+msg.Rank = 1
+if msg.sender_user_id_ == 1706625415 then 
+msg.TheRank =  'المبرمج'
+msg.Rank = 1
 elseif msg.sender_user_id_ == SUDO_ID then 
 msg.TheRankCmd = 'المطور ' 
 msg.TheRank = 'مطور اساسي ' 
