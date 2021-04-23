@@ -1,10 +1,10 @@
 --[[
 ▇▇▇                                       ▇▇▇               
 ▇▇        ▇                        ▇       ▇▇             
-▇▇          ▇ @ZU_XUX   ▇         ▇▇            
+▇▇          ▇ @ZU_XU   ▇         ▇▇            
 ▇▇             ▇             ▇             ▇▇        Dev : Mahmoud aboelmagd
 ▇▇                ▇       ▇                ▇▇      
-▇▇                   ▇▇                    ▇▇     Source revor BY @ZU_XUX
+▇▇                   ▇▇                    ▇▇     Source revor BY @ZU_XU
 ]]
 
 function download_to_file(url, file_name)
@@ -1214,7 +1214,7 @@ if redis:get(dany.."getidstatus"..msg.chat_id_) == "Photo" then
 		}
 		ssssys = ali[math.random(#ali)]
 		if not redis:get("KLISH:ID") then
-		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,' \n•✣ 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 '..UserNameID..' .\n•✣ 𝙢𝙨𝙂𝙨 '..msgs..' .\n•✣ 𝙨𝙩𝙖𝙨𝙩 '..msg.TheRank..' .\n•✣ 𝙡𝘿 '..msg.sender_user_id_..' .\n•⌘ ᴄʜ @ZU_XUXU .\n',dl_cb,nil)
+		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,' \n•✣ 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 '..UserNameID..' .\n•✣ 𝙢𝙨𝙂𝙨 '..msgs..' .\n•✣ 𝙨𝙩𝙖𝙨𝙩 '..msg.TheRank..' .\n•✣ 𝙡𝘿 '..msg.sender_user_id_..' .\n•⌘ ᴄʜ @Kabt_ok .\n',dl_cb,nil)
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1229,7 +1229,7 @@ if redis:get(dany.."getidstatus"..msg.chat_id_) == "Photo" then
 		end
 	else
 		if not redis:get("KLISH:ID") then
-		sendMsg(msg.chat_id_,msg.id_,'•لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...! \n•✣ 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚'..UserNameID..' .\n•✣ 𝙢𝙨𝙂𝙨'..msgs..' .\n•✣ 𝙨𝙩𝙖𝙨𝙩 '..msg.TheRank..' .\n•✣ 𝙡𝘿 '..msg.sender_user_id_..' .\n•ᴄʜ @ZU_XUXU .\n▿▿▿')
+		sendMsg(msg.chat_id_,msg.id_,'•لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...! \n•✣ 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚'..UserNameID..' .\n•✣ 𝙢𝙨𝙂𝙨'..msgs..' .\n•✣ 𝙨𝙩𝙖𝙨𝙩 '..msg.TheRank..' .\n•✣ 𝙡𝘿 '..msg.sender_user_id_..' .\n•ᴄʜ @Kabt_ok .\n▿▿▿')
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1256,7 +1256,7 @@ else
 		Text = Text:gsub('User_Points',nko)
 		sendMsg(msg.chat_id_,msg.id_,Flter_Markdown(Text))
 		else
-		sendMsg(msg.chat_id_,msg.id_,'•الايدي بالصوره معطل   \n•✣ 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚'..UserNameID..' .\n•✣ 𝙢𝙨𝙂𝙨'..msgs..' .\n•✣ 𝙨𝙩𝙖𝙨𝙩 '..msg.TheRank..' .\n•✣ 𝙡𝘿 '..msg.sender_user_id_..' .\n𖣤 ᴄʜ .⌘ @ZU_XUXU .')
+		sendMsg(msg.chat_id_,msg.id_,'•الايدي بالصوره معطل   \n•✣ 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚'..UserNameID..' .\n•✣ 𝙢𝙨𝙂𝙨'..msgs..' .\n•✣ 𝙨𝙩𝙖𝙨𝙩 '..msg.TheRank..' .\n•✣ 𝙡𝘿 '..msg.sender_user_id_..' .\n𖣤 ᴄʜ .⌘ @Kabt_ok .')
 		end
 end
 
@@ -1921,8 +1921,8 @@ end
 if (MsgText[1]== "ايدي" or MsgText[1]=="ايديي🆔") and msg.type == "pv" then return  "\n✤ اهلاً عزيزي المطور ايديك :\n\n✤ "..msg.sender_user_id_.."\n"  end
 
 if MsgText[1]== "قناة السورس" and msg.type == "pv" then
-local inline = {{{text="-قنآهہ‏‏ آلسـورس اضـغـط هـنـآ ",url="https://t.me/ZU_XUXU"}}}
-send_key(msg.sender_user_id_,'   [قناة سورس : زيوس](https://t.me/ZU_XUXU)' ,nil,inline,msg.id_)
+local inline = {{{text="-قنآهہ‏‏ آلسـورس اضـغـط هـنـآ ",url="https://t.me/Kabt_ok"}}}
+send_key(msg.sender_user_id_,'   [قناة سورس : زيوس](https://t.me/Kabt_ok)' ,nil,inline,msg.id_)
 return false
 end
 
@@ -2101,8 +2101,8 @@ return [[
 ✣︙ م3 «» اوامر الحماية‌‏
 ✣︙ م4 «» اوامر الخدمه 
 ✣︙ م5 «»  اوامر المطور
-✣︙ .[قـنـاه الـسـورس](t.me/ZU_XUXU) 
-✣︙ [ مـطـور الـسـورس ](t.me/ZU_XUX)
+✣︙ .[قـنـاه الـسـورس](t.me/Kabt_ok) 
+✣︙ [ مـطـور الـسـورس ](t.me/ZU_XU)
 ܀⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤܀
 ✣︙ ** لـلإسـتـفـسـار ↤︎ ]]..SUDO_USER
 end
@@ -3934,9 +3934,10 @@ return sendMsg(msg.chat_id_,msg.id_,dr[math.random(#dr)])
 elseif not msg.SudoUser and Text==" بوت" or Text == "بوت" then
 return 
 sendMsg(msg.chat_id_,msg.id_,nnn[math.random(#nnn)]) 
-elseif Text== "ZEUS" or Text== "زيوس" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس زيوس↯](https://t.me/ZU_XUX)")
+elseif Text== "ZEUS" or Text== "زيوس" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس زيوس↯](https://t.me/ZU_XU)")
 elseif Text== "بوت"  then return sendMsg(msg.chat_id_,msg.id_,"• قلب البوت من جوه ⚡️")
-elseif Text== "البرق" or Text== "زياد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس زيوس↯](https://t.me/ZU_XUX)")
+elseif Text== "مودا" or Text== "جميز" then return  sendMsg(msg.chat_id_,msg.id_,"[مبرمج السورس](https://t.me/Gmez_0K)")
+elseif Text== "البرق" or Text== "زياد" then return  sendMsg(msg.chat_id_,msg.id_,"[مطور سورس زيوس↯](https://t.me/ZU_XU)")
 elseif Text== "رفع كلب"  then return sendMsg(msg.chat_id_,msg.id_,"• تم رفعه الي قائمه الكلاب البلدي 🐕‍🦺")
 elseif Text== "رفع حمار"  then return sendMsg(msg.chat_id_,msg.id_,"• تم رفعه الي حمار  كبير كمان هه 🐎")
 elseif Text== "تنزيل حمار"  then return sendMsg(msg.chat_id_,msg.id_,"• تم تنزيله من الحمار ✨")
@@ -3948,6 +3949,7 @@ elseif Text== "رفع وتكه"  then return sendMsg(msg.chat_id_,msg.id_,"• �
 elseif Text== "رفع زوجتي"  then return sendMsg(msg.chat_id_,msg.id_,"• الان هي زوجتك ياقلبي💍❤️")
 elseif Text== "زواج"  then return sendMsg(msg.chat_id_,msg.id_,"• تم زواجكم الان هي مراتك ياولا 😉💋")
 elseif Text== "طلاق"  then return sendMsg(msg.chat_id_,msg.id_,"• الان هي طالق بالتلاته كمان هه😡")
+elseif Text== "رفع حكاك"  then return sendMsg(msg.chat_id_,msg.id_,"• تم رفع الحكاك بطل حك بقي 👾 .")
 elseif Text== "اوامر التسليه"  then return sendMsg(msg.chat_id_,msg.id_,"\n‌‌‏┄─┅══┅─┄\n✤ مرحباً عزيزي\n✤ هذي اوامر التسليه:  \n┄─┅═ـ═┅─┄\n✤ رفع ◄► تنزيل ❬ متوحد ❭\n✤ رفع ◄► تنزيل ❬ وتكه ❭\n✤ رفع ◄► تنزيل ❬ غبي ❭\n✤ رفع ◄► تنزيل ❬ كلب ❭\n✤ رفع ◄► تنزيل ❬ حمار ❭\n✤ رفع ◄► تنزيل ❬ زوجتي ❭\n✤ رفع ◄► تنزيل ❬ متوحده ❭\n✤ رفع ◄► ❬ بقلبي ❭ تنزيل ◄► ❬ من قلبي❭\n✤ ❬ طلاق ❭ ◄► ❬ زواج ❭\n┄─┅═ـ═┅─┄")
 elseif Text:match(Bot_Name.."كيفك") then 
   return sendMsg(msg.chat_id_,msg.id_,"بخير يقلبي ونت .")
@@ -4018,28 +4020,28 @@ elseif Text:match(Bot_Name.."كيفك") then
   --=====================================
 elseif Text== "انا مين" or Text== "مين انا"  then
 if msg.SudoUser then  
-return sendMsg(msg.chat_id_,msg.id_,"[انت مطوري الغالي ♕](https://t.me/ZU_XUXU) ")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مطوري الغالي ♕](https://t.me/Kabt_ok) ")
 elseif msg.Creator then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه  تاج راسي♔](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه  تاج راسي♔](https://t.me/Kabt_ok)")
 elseif msg.Director then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت مدير المجموعه๑](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مدير المجموعه๑](https://t.me/Kabt_ok)")
 elseif msg.Admin then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت ادمن شد حيلك♘](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت ادمن شد حيلك♘](https://t.me/Kabt_ok)")
 else 
-return sendMsg(msg.chat_id_,msg.id_,"[مجرد عضو هنا 𖦹](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[مجرد عضو هنا 𖦹](https://t.me/Kabt_ok)")
 end 
 end 
 elseif Text== "مين ضافني" or Text== "منو ضافني"  then
 if msg.SudoUser then  
-return sendMsg(msg.chat_id_,msg.id_,"[انت مكانك كل مكان يا مطور♕](https://t.me/ZU_XUXU) ")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مكانك كل مكان يا مطور♕](https://t.me/Kabt_ok) ")
 elseif msg.Creator then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه](https://t.me/Kabt_ok)")
 elseif msg.Director then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/Kabt_ok)")
 elseif msg.Admin then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/Kabt_ok)")
 else 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/ZU_XUXU)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/Kabt_ok)")
 end
 
 
