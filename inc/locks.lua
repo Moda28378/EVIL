@@ -1,10 +1,5 @@
 --[[
-▇▇▇                                       ▇▇▇               
-▇▇        ▇                        ▇       ▇▇             
-▇▇          ▇ @UU_IV   ▇         ▇▇            
-▇▇             ▇             ▇             ▇▇        Dev : Mahmoud aboelmagd
-▇▇                ▇       ▇                ▇▇      
-▇▇                   ▇▇                    ▇▇     Source revor BY @UU_IV
+اهلا بك في سورس الجميز  @Gmez_0k   @Gmez_1K
 ]]
 ---------------Lock ------------------- 
 function unlock_waring(msg)

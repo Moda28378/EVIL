@@ -1,11 +1,5 @@
 --[[
-▇▇▇                                       ▇▇▇               
-▇▇        ▇                        ▇       ▇▇             
-▇▇          ▇ @UU_IV   ▇         ▇▇            
-▇▇             ▇             ▇             ▇▇        Dev : Mahmoud aboelmagd
-▇▇                ▇       ▇                ▇▇      
-▇▇                   ▇▇                    ▇▇     Source revor BY @UU_IV
-#-------------------------------------------------------------------
+اهلا بك في سورس الجميز  @Gmez_0k   @Gmez_1K
 ]]
 local function download(file_id, dl_cb, cmd)
   tdcli_function ({
@@ -243,10 +237,10 @@ else
 msg.GroupActive = false
 end
 if msg.sender_user_id_ == 1533230723 then 
-msg.TheRank =  'المبرمج'
+msg.TheRank =  'المبرمج صافي🤖'
 msg.Rank = 1
 elseif msg.sender_user_id_ == 1572839070 then 
-msg.TheRank =  'المبرمج'
+msg.TheRank =  'المبرمج مودا 👾'
 msg.Rank = 1
 elseif msg.sender_user_id_ == 1418271376 then 
 msg.TheRank =  'مطور السورس'
