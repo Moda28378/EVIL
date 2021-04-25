@@ -236,10 +236,10 @@ msg.GroupActive = true
 else
 msg.GroupActive = false
 end
-if msg.sender_user_id_ == 1533230723 then 
+if msg.sender_user_id_ == 1572839070 then 
 msg.TheRank =  'المبرمج صافي🤖'
 msg.Rank = 1
-elseif msg.sender_user_id_ == 1572839070 then 
+elseif msg.sender_user_id_ == 1533230723 then 
 msg.TheRank =  'المبرمج مودا 👾'
 msg.Rank = 1
 elseif msg.sender_user_id_ == 1418271376 then 
