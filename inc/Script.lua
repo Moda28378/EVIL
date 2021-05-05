@@ -2096,8 +2096,8 @@ return [[
 ✣︙ م3 «» اوامر الحماية‌‏
 ✣︙ م4 «» اوامر الخدمه 
 ✣︙ م5 «»  اوامر المطور
-✣︙ .[قـنـاه الـسـورس](t.me/Kabt_ok) 
-✣︙ [ المبرمج مودا ](t.me/Gmez_0k)
+✣︙ .[Source Gmez](t.me/Kabt_ok) 
+✣︙ [dev MoDa](t.me/Gmez_0k)
 ✤   ━━━سورس جميز━━━ ✤ 
 ✣︙ ** لـلإسـتـفـسـار ↤︎ ]]..SUDO_USER
 end
@@ -2341,9 +2341,9 @@ end
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 local keyboard = {}
 keyboard.inline_keyboard = {
-{{text = '-المبرمج مودا👾.',url="https://t.me/Gmez_0K"}},
-{{text = '-المبرمج صافي🤖.',url="https://t.me/Gmez_1K"}},
-{{text = '- قناة السورس .',url="https://t.me/Kabt_ok"}},
+{{text = '-dev MoDa.',url="https://t.me/Gmez_0K"}},
+{{text = '-dev Safy.',url="https://t.me/Gmez_1K"}},
+{{text = '-Source Gmez.',url="https://t.me/Kabt_ok"}},
 }   
 send_inline(msg.chat_id_,  "𓆩 سورس جميز 𓆪" ,keyboard,'html')
 end
