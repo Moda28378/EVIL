@@ -630,21 +630,21 @@ var =  'المبرمج مودا'
 elseif  UserID == 1572839070 then
 var =  'المبرمج صافي' 
 elseif  UserID == 1418271376 then
-var =  'مطور السورس' 
+var =  'كينج التلي❤️' 
 elseif redis:sismember(dany..':SUDO_BOT:',UserID) then
-var = 'مطور البوت' 
+var = 'مطور قلبي 😘' 
 elseif redis:sismember(dany..':KARA_BOT:'..ChatID,UserID) then
-var = ' المنشئ الاساسي' 
+var = ' شقي الاساسي 💋' 
 elseif redis:sismember(dany..':MONSHA_BOT:'..ChatID,UserID) then
-var = ' المنشئ' 
+var = ' منشئ حياتي 😋' 
 elseif redis:sismember(dany..'owners:'..ChatID,UserID) then
-var = 'المدير' 
+var = 'المدير الفرفوش🙈' 
 elseif redis:sismember(dany..'admins:'..ChatID,UserID) then
-var = 'الادمن' 
+var = 'ادمن حياتي 🙊' 
 elseif redis:sismember(dany..'whitelist:'..ChatID,UserID) then
 var = 'عضو مميز' 
 else
-var = 'فقط عضو' 
+var = 'اجمل عضو ❤️' 
 end
 return var
 end
