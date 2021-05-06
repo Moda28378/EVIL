@@ -2341,9 +2341,9 @@ end
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 local keyboard = {}
 keyboard.inline_keyboard = {
-{{text = '-^DEV>> ’MoDa,.',url="https://t.me/Gmez_0K"}},
-{{text = '-^DEV>> ’SaFy,.',url="https://t.me/Gmez_1K"}},
-{{text = '- <<[SOURCE GMEZ,>>.',url="https://t.me/Kabt_ok"}},
+{{text = '-المبرمج مودا👾.',url="https://t.me/Gmez_0K"}},
+{{text = '-المبرمج صافي🤖.',url="https://t.me/Gmez_1K"}},
+{{text = '- قناة السورس .',url="https://t.me/Kabt_ok"}},
 }   
 send_inline(msg.chat_id_,  "𓆩 سورس جميز 𓆪" ,keyboard,'html')
 end
@@ -3902,9 +3902,11 @@ if not Replay then
 --================================{{  Reply Bot  }} ===================================
 
 local nnn = {
-{{text = '-SOURCE.',url="https://t.me/Kabt_ok"}},
-{{text = '-اضف البوت الي مجموعتك.',url="https://telegram.me/EV_IL_Bot?startgroup=start"}},
-
+"اسمي ["..Bot_Name.."] .",
+"تدلل .",
+"تفضل .",
+"عيوني لك .",
+"عايزي اي يا قلبي ❤️.",
 }
 
 local Text = msg.text
@@ -4015,7 +4017,7 @@ elseif Text:match(Bot_Name.."كيفك") then
   elseif Text=="روم مودا" or Text=="روم توجزر" or Text=="روم جميز" or Text=="روم الجزار" then
   return sendMsg(msg.chat_id_,msg.id_,[[
   ✤ روم توجزر
-✤ [أضغط هُنا](https://t.me/MoDa_SaFy) - .
+✤ [أضغط هُنا](https://t.me/MoDa_GmeZ_k) - .
 ‏
   ]] )
   elseif Text=="ابي رابط الحذف" or Text=="بوت الحذف" or Text=="رابط حذف" or Text=="رابط الحذف" then
@@ -4024,10 +4026,6 @@ elseif Text:match(Bot_Name.."كيفك") then
 ✤ [أضغط هُنا](t.me/DTeLebot) - .
 ‏
   ]] )
-  elseif Text==".." or Text=="مين ضافني" or Text=="بف" or Text=="بحبك" then
-  return sendMsg(msg.chat_id_,msg.id_,[[
-✤ [لماذا نحن هنا](https://t.me/OMG_1K) - .
-
   --=====================================
 elseif Text== "انا مين" or Text== "مين انا"  then
 if msg.SudoUser then  
