@@ -2096,8 +2096,8 @@ return [[
 ✣︙ م3 «» اوامر الحماية‌‏
 ✣︙ م4 «» اوامر الخدمه 
 ✣︙ م5 «»  اوامر المطور
-✣︙ .[Source Gmez](t.me/Kabt_ok) 
-✣︙ [dev MoDa](t.me/Gmez_0k)
+✣︙ .[قـنـاه الـسـورس](t.me/Kabt_ok) 
+✣︙ [ المبرمج مودا ](t.me/Gmez_0k)
 ✤   ━━━سورس جميز━━━ ✤ 
 ✣︙ ** لـلإسـتـفـسـار ↤︎ ]]..SUDO_USER
 end
@@ -2341,9 +2341,9 @@ end
 if MsgText[1] == "السورس" or MsgText[1]=="سورس" then
 local keyboard = {}
 keyboard.inline_keyboard = {
-{{text = '-dev MoDa.',url="https://t.me/Gmez_0K"}},
-{{text = '-dev Safy.',url="https://t.me/Gmez_1K"}},
-{{text = '-Source Gmez.',url="https://t.me/Kabt_ok"}},
+{{text = '-^DEV>> ’MoDa,.',url="https://t.me/Gmez_0K"}},
+{{text = '-^DEV>> ’SaFy,.',url="https://t.me/Gmez_1K"}},
+{{text = '- <<[SOURCE GMEZ,>>.',url="https://t.me/Kabt_ok"}},
 }   
 send_inline(msg.chat_id_,  "𓆩 سورس جميز 𓆪" ,keyboard,'html')
 end
@@ -3902,11 +3902,9 @@ if not Replay then
 --================================{{  Reply Bot  }} ===================================
 
 local nnn = {
-"اسمي ["..Bot_Name.."] .",
-"تدلل .",
-"تفضل .",
-"عيوني لك .",
-"عايزي اي يا قلبي ❤️.",
+{{text = '-SOURCE.',url="https://t.me/Kabt_ok"}},
+{{text = '-اضف البوت الي مجموعتك.',url="https://telegram.me/EV_IL_Bot?startgroup=start"}},
+
 }
 
 local Text = msg.text
@@ -4017,7 +4015,7 @@ elseif Text:match(Bot_Name.."كيفك") then
   elseif Text=="روم مودا" or Text=="روم توجزر" or Text=="روم جميز" or Text=="روم الجزار" then
   return sendMsg(msg.chat_id_,msg.id_,[[
   ✤ روم توجزر
-✤ [أضغط هُنا](https://t.me/MoDa_GmeZ_k) - .
+✤ [أضغط هُنا](https://t.me/MoDa_SaFy) - .
 ‏
   ]] )
   elseif Text=="ابي رابط الحذف" or Text=="بوت الحذف" or Text=="رابط حذف" or Text=="رابط الحذف" then
@@ -4026,6 +4024,10 @@ elseif Text:match(Bot_Name.."كيفك") then
 ✤ [أضغط هُنا](t.me/DTeLebot) - .
 ‏
   ]] )
+  elseif Text==".." or Text=="مين ضافني" or Text=="بف" or Text=="بحبك" then
+  return sendMsg(msg.chat_id_,msg.id_,[[
+✤ [لماذا نحن هنا](https://t.me/OMG_1K) - .
+
   --=====================================
 elseif Text== "انا مين" or Text== "مين انا"  then
 if msg.SudoUser then  
