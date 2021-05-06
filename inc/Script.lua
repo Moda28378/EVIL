@@ -3903,8 +3903,10 @@ if not Replay then
 
 local nnn = {
 "اسمي ["..Bot_Name.."] .",
-{{text = '-SOURCE.',url="https://t.me/Kabt_ok"}},
-{{text = '-اضف البوت الي مجموعتك.',url="https://telegram.me/EV_IL_Bot?startgroup=start"}},
+"تدلل .",
+"تفضل .",
+"عيوني لك .",
+"عايزي اي يا قلبي ❤️.",
 }
 
 local Text = msg.text
