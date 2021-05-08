@@ -1303,35 +1303,3 @@ dany = {
 
 
 
-if($text == "الالعاب جميز"){
-bot('SendMessageText',[
- 'chat_id'=>$chat_id,
- 'message_id'=>$message_id,
-'text'=>'
-اهلا بك في العاب جميز المتطوره 💞💞 
-اختر لعبتك يمكنك مشاركه اللعبه مع اصدقائك في المجموعه او في الخاص 💞
-',
-'reply_markup'=>json_encode([ 
-      'inline_keyboard'=>[
-[['text'=>  "لعبة فلابي بيرد 🐥"  ,'url'=>'https://t.me/awesomebot?game=FlappyBird']],
-[['text'=>"تحداني فالرياضيات 🔢",'url'=>'https://t.me/gamebot?game=MathBattle']],
-[['text'=>"سباق الدراجات 🏍",'url'=>'https://t.me/gamee?game=MotoFX']],
-[['text'=>"سباق سيارات 🏎",'url'=>'https://t.me/gamee?game=F1Racer']],
-[['text'=>"متشابه 👾",'url'=>'https://t.me/gamee?game=DiamondRows']],
-[['text'=>"كرة قدم ⚽️",'url'=>'https://t.me/gamee?game=FootballStar']],
-[['text'=>"دومنا🥇",'url'=>'https://vipgames.com/play/?affiliateId=wpDom/#/games/domino/lobby']],
-[['text'=>"❕ليدو",'url'=>'https://vipgames.com/play/?affiliateId=wpVG#/games/ludo/lobby']],
-[['text'=>"ورق🤹‍♂",'url'=>'https://t.me/gamee?game=Hexonix']],
-[['text'=>"Hexonix❌",'url'=>'https://t.me/gamee?game=Hexonix']],
-[['text'=>"MotoFx🏍️",'url'=>'https://t.me/gamee?game=MotoFx']],
-[['text'=>"لعبة 2048 🎰",'url'=>'https://t.me/awesomebot?game=g2048']],
-[['text'=>"Squares🏁",'url'=>'https://t.me/gamee?game=Squares']],
-[['text'=>"Atomic 1▶️",'url'=>'https://t.me/gamee?game=AtomicDrop1']],
-[['text'=>"Corsairs",'url'=>'https://t.me/gamebot?game=Corsairs']],
-[['text'=>"LumberJack",'url'=>'https://t.me/gamebot?game=LumberJack']],
-[['text'=>"LittlePlane",'url'=>'https://t.me/gamee?game=LittlePlane']],
-[['text'=>"RollerDisco",'url'=>'https://t.me/gamee?game=RollerDisco']],
-[['text'=>'𝗦𝗢𝗡𝗜𝗖 🇪🇬 ','url'=>'t.me/UU_IV']],
-]])
-]);
-}
